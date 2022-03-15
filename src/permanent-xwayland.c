@@ -5,5 +5,6 @@
 int main()
 {
     Display *dpy = XOpenDisplay(NIL);
+    XCloseDisplay(dpy);
     return 0;
 }
