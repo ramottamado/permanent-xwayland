@@ -1,4 +1,4 @@
-NAME = permanent-xwayland
+NAME = spawn-xwayland
 CC ?= gcc
 SRC_EXT = c
 SRC_PATH = src

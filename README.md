@@ -1,4 +1,4 @@
-# permanent-xwayland
+# spawn-xwayland
 
 ## Why?
 
@@ -19,5 +19,5 @@ make && make install
 # Optional, install systemd unit files for autostart
 make install-systemd
 systemctl --user daemon-reload
-systemctl --user enable permanent-xwayland
+systemctl --user enable spawn-xwayland
 ```

@@ -8,7 +8,7 @@ Type=oneshot
 ExecStart=
 StandardOutput=journal
 StandardError=journal
-SyslogIdentifier=permanent-xwayland
+SyslogIdentifier=spawn-xwayland
 
 [Install]
 WantedBy=gnome-session-initialized.target
