@@ -9,6 +9,7 @@ On latest GNOME Shell, XWayland process will be spawned on-demand when first X11
 ```
 pkg-config
 libX11-devel
+glib2-devel
 ```
 
 ## Build & Install
